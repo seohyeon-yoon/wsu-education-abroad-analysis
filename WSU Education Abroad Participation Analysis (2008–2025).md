@@ -24,7 +24,7 @@ This project analyzes institutional records from WSU's Education Abroad office s
 | Records | ~11,000+ participant entries |
 | Key variables | Program type, academic year, major, college, destination country/city, student GPA |
 
-**Note:** Raw data contains institutional student records and is not publicly shared in this repository.
+**Note:** Data is not publicly available due to institutional data policy. Analysis outputs and methodology are documented in the notebook.
 
 ---
 
@@ -77,10 +77,8 @@ Based on the equity gap analysis:
 
 ```
 ├── README.md
-├── data/
-│   └── GL_all_time_data_07_24.csv        # Raw participation records
 ├── analysis/
-│   └── EducationAbroadDataAnalysisProject.html   # Full annotated analysis notebook
+│   └── EducationAbroadDataAnalysisProject.ipynb   # Full annotated notebook
 └── report/
     └── Education_Abroad_Data_Analysis_Report_Summary.pdf  # Summary report
 ```
@@ -89,7 +87,8 @@ Based on the equity gap analysis:
 
 ## How to View the Analysis
 
-The full analysis is available as a rendered HTML file (`analysis/EducationAbroadDataAnalysisProject.html`). Download and open it in any browser to view all charts, tables, and narrative insights.
+- **On GitHub:** Click into `analysis/EducationAbroadDataAnalysisProject.ipynb` — GitHub renders notebooks directly in the browser, showing code, charts, and narrative together
+- **Locally:** Clone the repo and open the `.ipynb` file in Jupyter Notebook or JupyterLab
 
 ---
 
